@@ -1,0 +1,75 @@
+nav li{
+    list-style: none;
+    margin-left: 15px;
+    font-size: larger;
+    border: 2px solid darkturquoise;
+    background-color: skyblue;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+nav > ul{
+    display: flex;
+}
+nav li a{
+    text-decoration: none;
+    color: darkred;
+}
+nav li:hover{
+    background-color: lightcyan;
+}
+footer{
+    text-align: center;
+    font-size: smaller;
+}
+.mainbanner{
+    width: 100%;
+}
+td, th{
+    border: 1px solid dodgerblue;
+    padding: 5px 10px;
+}
+table{
+    border: 1px solid skyblue;
+}
+tfoot > tr > td{
+    text-align: center;
+}
+
+.glassbox{
+    background-color: rgba(0, 0, 0, 0.393);
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    display: inline-block;
+    border-radius: 10px;
+}
+.texty{
+    width: 35%;
+    margin: 10%;
+    margin-right: 5%;
+    display: inline-block;
+    color: gainsboro;
+    font-size: 20px;
+}
+.scroller{
+    overflow: scroll;
+    height: 250px;
+}
+.imager{
+    width: 20%;
+    margin: 10%;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+/* nested meu styles */
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    padding-left: 1px;
+}
+nav li:hover > .dropdown{
+    display: block;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Demonstration</title>
+    <style>
+        form label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="table-demo.html">table-demo</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="form-demo.html">form demonstration</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Please Fill up the Form</h2>
+            <form action="">
+                <label for="name">Your name: 
+                    <input type="text" placeholder="your name">
+                </label>
+                <label for="email">Your e-mail: 
+                    <input type="email" name="" id="" placeholder="example@mail.tld">
+                </label>
+                <label for="phone">Your phone:
+                    <input type="text" placeholder="your phone">
+                </label>
+                <fieldset>
+                    <legend>choose your character</legend>
+                    <label for="batman">
+                        <input type="radio" name="character" id="batman">
+                        batman
+                    </label>
+                    <label for="batemen">
+                        <input type="radio" name="character" id="bateman">
+                        bateman
+                    </label>
+                    <label for="jared-lutha">
+                        <input type="radio" name="character" id="jared-lutha">
+                        jared lutha
+                    </label>
+                    <label for="kris-nola">
+                        <input type="radio" name="character" id="kris-nola">
+                        kris nola
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>choose your powers</legend>
+                    <label for="ghushi">
+                        <input type="checkbox" name="mair" id="ghushi">
+                        ghushi
+                    </label>
+                    <label for="latthi">
+                        <input type="checkbox" name="mair" id="latthi">
+                        latthi
+                    </label>
+                    <label for="laser">
+                        <input type="checkbox" name="mair" id="laser">
+                        laser
+                    </label>
+                    <label for="bonduk">
+                        <input type="checkbox" name="mair" id="bonduk">
+                        bonduk
+                    </label>
+                    <label for="mogoj">
+                        <input type="checkbox" name="mair" id="mogoj">
+                        mogoj
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>special instruction</legend>
+                    <textarea name="instructions" id="instructions" cols="35" rows="5"></textarea>
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
