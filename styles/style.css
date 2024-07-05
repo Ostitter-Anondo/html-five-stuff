@@ -63,6 +63,9 @@ tfoot > tr > td{
     margin-left: 5%;
     display: inline-block;
 }
+body{
+    background: linear-gradient(to bottom right, rgb(192, 70, 192), rgb(255, 120, 9));
+}
 
 /* nested meu styles */
 nav li .dropdown{
